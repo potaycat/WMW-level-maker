@@ -1,0 +1,46 @@
+--------------------------------------------------
+|Where's My Water level creator instrucion of use|
+--------------------------------------------------
+
+*ALL THE STEP:*
+
+1. Find Where's my water apk file from trusted source, best option is to
+buy on Play store then pull it out
+2. Decompile the apk
+3. Use WMW level creator and get creative
+4. When you're done, head over File -> Export XML
+    (output file should looks like example.xml)
+    then go to <decompiled apk folder>/assets/Level/
+    and REPLACE any pair of png,xml level you want with yours.
+    Your level will appear corresponding to the replaced one in the game.
+    For example replacing first_dig.png and first_dig.xml will have your
+    creation in level 1-1
+5. Recopile, sign, install and share with friends(if you happen to have those)
+
+
+
+1. For the level to load in the game, there are TWO things for it to work:
+the Map layout PNG file, and the Object mapping XML file
+    To imagine what's that looks like, view 'mapExample.png'
+    WMW level creator will work on rendering that XML, but you have to draw
+the map (in Paint, Photoshop, GIMP,...) yourself
+    The PNG MUST have the following attribute:
+        -Index colored
+        -90x120 resolution
+        -8 bits/pixel (bitdepth)
+        -non-interlaced
+    The PNG holds the following stuff in the game:
+        -Rock (GRAY)
+        -Rock layers (for styling only) (3 shades of GRAY)
+        -Water (BLUE)
+        -Poison (PURPLE)
+        -Ooze (ORANGE)
+        -Air (DARK BLUE)
+        -Dirt (BROWN)
+        -Mud (DARK BROWN)
+        -Algea (GREEN)
+        -Boiling thingy (turn water to air) (RED)
+        -Spike (popping baloons) (
+        
+2. After that, you'll have a nice background where you can put other 
+objects on using WMW Level Creator, viết hướng dẫn mệt r .-.

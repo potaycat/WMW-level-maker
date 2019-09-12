@@ -1,0 +1,12 @@
+WMW object properties notes:
+
+SRPOUT: shoot out stuff
+water, poison or ooze
+particalspeed: shooting force
+particalpersecond: partical per second...
+numberpartical: amount of stuff - can be replaced with:
+timer: contains a tuple, can be multiple. first index: 1 or 0 - on/off state
+                         second index: time which execute state
+
+wall 8x8
+motor

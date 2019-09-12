@@ -1,0 +1,43 @@
+<Objects>
+  <Object name="Object0">
+    <AbsoluteLocation value="9.333333 -1.666667"/>
+    <Properties>
+      <Property name="Angle" value="201"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object/>
+  <Room>
+    <AbsoluteLocation value="-13.166667 20.500000"/>
+  </Room>
+  <Object name="Object2">
+    <AbsoluteLocation value="15.333333 16.166667"/>
+    <Properties>
+      <Property name="Angle" value="239"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object3">
+    <AbsoluteLocation value="-16.000000 -0.666667"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object4">
+    <AbsoluteLocation value="6.500000 -16.166667"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object5">
+    <AbsoluteLocation value="-10.833333 -30.166667"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+</Objects>
